@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Add Alarm" android:textSize="20sp" android:textStyle="bold"/>
+
+    <EditText android:id="@+id/alarmTitle" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Alarm title" android:layout_marginTop="12dp"/>
+
+    <TextView android:id="@+id/alarmDate" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Select date" android:padding="12dp" android:background="#EEE"
+        android:layout_marginTop="10dp"/>
+
+    <TextView android:id="@+id/alarmTime" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Select time" android:padding="12dp" android:background="#EEE"
+        android:layout_marginTop="10dp"/>
+
+    <EditText android:id="@+id/alarmSnooze" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Snooze minutes (default 5)" android:inputType="number"
+        android:layout_marginTop="10dp"/>
+
+    <Button android:id="@+id/btnSaveAlarm" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Save Alarm" android:layout_marginTop="16dp"/>
+</LinearLayout>

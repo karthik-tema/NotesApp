@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:gravity="center" android:padding="24dp"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/white">
+
+    <TextView android:id="@+id/alarmTitle" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="Alarm" android:textSize="28sp" android:textStyle="bold"/>
+
+    <Button android:id="@+id/btnStopAlarm" android:layout_width="200dp"
+        android:layout_height="wrap_content" android:text="Stop" android:layout_marginTop="24dp"/>
+
+    <Button android:id="@+id/btnSnoozeAlarm" android:layout_width="200dp"
+        android:layout_height="wrap_content" android:text="Snooze" android:layout_marginTop="12dp"/>
+</LinearLayout>

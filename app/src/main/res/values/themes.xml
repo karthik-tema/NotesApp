@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Main App Theme -->
+    <style name="Theme.NotesApp" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">#494848</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">#000000</item>
+    </style>
+
+</resources>
