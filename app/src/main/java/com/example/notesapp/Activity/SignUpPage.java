@@ -18,6 +18,7 @@ import com.example.notesapp.DataModelClass.UserData;
 
 public class SignUpPage extends AppCompatActivity {
     Button submit_btn;
+    //new comment
     EditText signUpName,signUpEmail,signUpPassword,signUpRePassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
