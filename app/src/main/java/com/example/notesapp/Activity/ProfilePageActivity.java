@@ -421,7 +421,7 @@ public class ProfilePageActivity extends AppCompatActivity {
     public interface AddressCallback {
         void onAddressReceived(String address);
     }
-
+// git hub changes
     // Animation
 
     private  void animateView(View view, int animRes){
