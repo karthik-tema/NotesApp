@@ -49,6 +49,7 @@ public class LoginPage extends AppCompatActivity {
                 loginPassword.setError("Please enter password");
                 return;
             }
+            // comment added
 
             // Background thread
             new Thread(() -> {
